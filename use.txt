@@ -7,3 +7,17 @@ $ git pull
 $ git add .
 $ git commit -m 'message'
 $ git push
+
+
+라이브러리 : react
+압축 및 서버: webpack (webpack.config.js)
+번역기: babel (대체재 typescript - 초보자도 쉽게 할 수 있는 도우미)
+
+[webpack]
+npm i -D webpack webpack-cli webpack-dev-server
+
+[babel]
+npm i -D babel-loader @babel/core @babel/polyfill @babel/preset-env @babel/preset-react
+
+[react]
+npm i -s react react-router-dom react-dom

@@ -1,0 +1,19 @@
+
+<script>
+
+	var player = {
+		keyplayer: {
+			name: '메시',
+			team: '바르셀로나',
+			height: 170
+		}
+	};
+
+	test(player);
+
+	function test(value) {
+		const { keyplayer: { name, team, height } } = value; 
+		console.log(name);
+	}
+
+</script>

@@ -1,0 +1,26 @@
+<body>
+	<button onclick="test2()">test</button>
+	<script>
+		function test() {
+			console.log('test!!');
+		}
+		
+		const test2 = () => {
+			console.log('test2!!');
+		};
+
+		const test3 = () => ({ color: 'yellow' });
+
+		function test4(color) {
+			return { color };
+		}
+
+		const test5 = (color) => ({ color });
+
+		const result = test3();
+		const result2 = test4('blue');
+		
+		console.log(result2);
+
+	</script>
+</body>
