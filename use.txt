@@ -21,3 +21,22 @@ npm i -D babel-loader @babel/core @babel/polyfill @babel/preset-env @babel/prese
 
 [react]
 npm i -s react react-router-dom react-dom
+
+
+[순서, 3일차]
+[v] 1. router
+[v] 2. useState 값,
+[v] 3. useEffect 값,
+[ ] 3-1. styled-components
+[ ] 4. input - useState
+[ ] 5. axios api 받아오는 (ajax)
+[ ] 6. 배열 출력하는 방법
+[ ] 7. redux (Global State) => 전역변수
+[ ] 8. redux-persist -> LocalStorage(AsyncStorage)
+
+---------------------WEB 종료-----------------------
+
+Application(React Native)
+Navigation (Stack),
+Animation, Tab.
+Camera Map(Google, Daum, Naver), GPS

@@ -1,0 +1,29 @@
+<button id="increament">증가</button>
+<button id="check">check</button>
+
+<script>
+	const [number, setNumber] = useState(10);
+
+	var increament = document.querySelector('#increament');
+	var check = document.querySelector('#check');
+
+	increament.addEventListener('click', onClickhandler);
+	check.addEventListener('click', onCheck);
+
+	function onCheck() {
+		console.log(number);
+	}
+
+	function onClickhandler() {
+		setNumber(50);
+	}
+
+	function useState(value) {
+		var stateValue = value;
+		function setValue(data) {
+			stateValue = data;
+		}
+		return [stateValue, setValue];
+	}
+
+</script>

@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import Counter from './routers/Counter';
+import Counter2 from './routers/Counter2';
 
 function Test() {
 	return (
@@ -11,4 +13,4 @@ function Test() {
 	);
 }
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+ReactDOM.render(<Counter2 />, document.querySelector('#root'));
