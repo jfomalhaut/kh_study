@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Counter from './routers/Counter';
 import Counter2 from './routers/Counter2';
+import Phonebook from './routers/Phonebook';
+import Category from './routers/Category';
 
 function Test() {
 	return (
@@ -13,4 +15,4 @@ function Test() {
 	);
 }
 
-ReactDOM.render(<Counter2 />, document.querySelector('#root'));
+ReactDOM.render(<Category />, document.querySelector('#root'));

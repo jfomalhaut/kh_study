@@ -1,0 +1,19 @@
+<script>
+	var field = {
+		name: '',
+		place: '',
+		price: '',
+	};
+
+	field.place = 'ddd';
+
+	var key = 'price';
+
+	var field2 = {
+		...field,
+		['price']: 'asdfasdf'
+	};
+
+	console.log(field2);
+
+</script>
